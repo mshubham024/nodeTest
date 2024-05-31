@@ -4,10 +4,9 @@ metadata:
   name: myapp-argocd-application
   namespace: argocd
 spec:
-  projet: default
-
+  project: default
   source:
-    repoURL:
+    repoURL: https://github.com/mshubham024/nodeTest.git
     targetRevision: HEAD
     path: 
   destination:
